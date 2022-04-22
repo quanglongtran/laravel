@@ -1,0 +1,79 @@
+#navbar-right .nav-item:not(:last-child) {
+  margin-right: 16px;
+}
+#navbar-right .notification {
+  font-size: 22px;
+}
+#navbar-right .user-avatar {
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+  margin-right: 16px;
+  cursor: pointer;
+}
+#navbar-right .user-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #2C2C2C;
+  cursor: pointer;
+}
+#navbar-right .user-name .icon {
+  margin-left: 9px;
+  opacity: 0.6;
+}
+#navbar-right .user .dropdown-toggle::after {
+  content: initial;
+}
+#navbar-right .user .dropdown-menu {
+  width: 240px;
+  top: 160%;
+  border: none;
+  left: -80%;
+  box-shadow: 0 8px 20px rgba(182, 182, 182, 0.3);
+}
+#navbar-right .user .dropdown-menu .dropdown-item {
+  width: 100%;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  color: #2C2C2C;
+  white-space: nowrap;
+}
+#navbar-right .user .dropdown-menu .dropdown-item img {
+  vertical-align: middle;
+  margin: 0 12px;
+  width: 18px;
+  height: 18px;
+}
+#navbar-right .posting {
+  color: #E03C31;
+  border-radius: 8px;
+  padding: 14px 16px;
+  border: 1px solid #E03C31;
+  font-weight: 700;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+#navbar-right .posting:hover {
+  background-color: #FFECEB;
+  border: 1px solid #E03C31;
+}
+
+#navbar-right .nav-item:not(:first-child, :nth-child(3)) {
+  border-radius: initial;
+  height: initial;
+  padding: initial;
+}
+#navbar-right .nav-item:not(:first-child, :nth-child(3)):hover {
+  background-color: initial;
+  padding: initial;
+}
+
+#navbar-right .nav-item:last-child {
+  margin-left: initial;
+  border: initial;
+  border-radius: initial;
+}

@@ -1,0 +1,83 @@
+#navbar-right {
+    .nav-item:not(:last-child) {
+        margin-right: 16px;
+    }
+    .notification {
+        font-size: 22px;
+    }
+    .user {
+        &-avatar {
+            border-radius: 50%;
+            height: 42px;
+            width: 42px;
+            cursor: pointer;
+            margin-right: 16px;
+            cursor: pointer;
+        }
+        &-name {
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 14px;
+            white-space: nowrap;
+            color: #2C2C2C;
+            cursor: pointer;
+            .icon {
+                margin-left: 9px;
+                opacity: 0.6;
+            }
+        }
+        .dropdown-toggle::after {
+            content: initial;
+        }
+        .dropdown-menu {
+            width: 240px;
+            top: 160%;
+            border: none;
+            left: -80%;
+            box-shadow: 0 8px 20px rgb(182 182 182 / 30%);
+            .dropdown-item {
+                width: 100%;
+                padding-bottom: 6px;
+                padding-top: 6px;
+                color: #2C2C2C;
+                white-space: nowrap;
+                img {
+                    vertical-align: middle;
+                    margin: 0 12px;
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+    }
+    .posting {
+        color: #E03C31;
+        border-radius: 8px;
+        padding: 14px 16px;
+        border: 1px solid #E03C31;
+        font-weight: 700;
+        margin: 0;
+        font-family: 'Nunito', sans-serif;
+        cursor: pointer;
+        &:hover {
+            background-color: #FFECEB;
+            border: 1px solid #E03C31;
+        }
+    }
+}
+
+#navbar-right .nav-item:not(:first-child, :nth-child(3)) {
+    border-radius: initial;
+    height: initial;
+    padding: initial;
+    &:hover {
+        background-color: initial;
+        padding: initial;
+    }
+}
+
+#navbar-right .nav-item:last-child {
+    margin-left: initial;
+    border: initial;
+    border-radius: initial;
+}
